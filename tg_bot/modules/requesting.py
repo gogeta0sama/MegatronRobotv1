@@ -81,7 +81,7 @@ def request(bot: Bot, update: Update) -> str:
             reported = f"{mention_html(user.id, user.first_name)} requested {mention_html(requested.id, requested.first_name)} to the admins!"
 
             msg = (f"<b>{html.escape(chat.title)}:</b>\n"
-                   f"<b>Requested user:</b> {mention_html(reported_user.id, requested.first_name)} (<code>{requested.id}</code>)\n"
+                   f"<b>Requested user:</b> {mention_html(requested_user.id, requested.first_name)} (<code>{requested.id}</code>)\n"
                    f"<b>Requested by:</b> {mention_html(user.id, user.first_name)} (<code>{user.id}</code>)")
             link = f'\n<b>Link:</b> <a href="https://t.me/{chat.username}/{message.message_id}">click here</a>'
 
@@ -139,11 +139,11 @@ def __user_settings__(user_id):
 
 __help__ = """
  - /request <request name>: reply to a message to report it to admins.
- - @admin: reply to a message to report it to admins.
+ - @admin: reply to a message to request it to admins.
 NOTE: Neither of these will get triggered if used by admins.
 
 *Admin only:*
- - /Requests <on/off>: change report setting, or view current status.
+ - /Requests <on/off>: change request setting, or view current status.
    - If done in pm, toggles your status.
    - If in chat, toggles that chat's status.
 """
