@@ -78,7 +78,7 @@ def request(bot: Bot, update: Update) -> str:
 
         if chat.username and chat.type == Chat.SUPERGROUP:
 
-            reported = f"{mention_html(user.id, user.first_name)} requested {mention_html(requested.id, requested.first_name)} to the admins!"
+            requested = f"{mention_html(user.id, user.first_name)} requested {mention_html(requested.id, requested.first_name)} to the admins!"
 
             msg = (f"<b>{html.escape(chat.title)}:</b>\n"
                    f"<b>Requested user:</b> {mention_html(requested_user.id, requested.first_name)} (<code>{requested.id}</code>)\n"
@@ -87,7 +87,7 @@ def request(bot: Bot, update: Update) -> str:
 
             should_forward = False
         else:
-            reported = f"{mention_html(user.id, user.first_name)} requested " \
+            requested = f"{mention_html(user.id, user.first_name)} requested " \
                        f"{mention_html(requested.id, requested.first_name)} to the admins!"
 
             msg = f'{mention_html(user.id, user.first_name)} is calling for admins in "{html.escape(chat_name)}"!'
@@ -138,7 +138,7 @@ def __user_settings__(user_id):
 
 
 __help__ = """
- - /request <request name>: reply to a message to report it to admins.
+ - /request <request name>: reply to a message to request it to admins.
  - @admin: reply to a message to request it to admins.
 NOTE: Neither of these will get triggered if used by admins.
 
