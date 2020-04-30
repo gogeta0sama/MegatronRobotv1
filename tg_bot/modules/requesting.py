@@ -148,8 +148,8 @@ NOTE: Neither of these will get triggered if used by admins.
    - If in chat, toggles that chat's status.
 """
 
-SETTING_HANDLER = CommandHandler("reportss", request_setting, pass_args=True)
-REQUEST_HANDLER = CommandHandler("report", request, filters=Filters.group)
+SETTING_HANDLER = CommandHandler("requests", request_setting, pass_args=True)
+REQUEST_HANDLER = CommandHandler("request", request, filters=Filters.group)
 ADMIN_REQUEST_HANDLER = RegexHandler("(?i)@admin(s)?", request)
 
 dispatcher.add_handler(SETTING_HANDLER)
