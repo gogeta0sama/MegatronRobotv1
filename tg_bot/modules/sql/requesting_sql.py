@@ -19,7 +19,7 @@ class RequestingUserSettings(BASE):
 
 
 class RequestingChatSettings(BASE):
-    __tablename__ = "chat_report_settings"
+    __tablename__ = "chat_request_settings"
     chat_id = Column(String(14), primary_key=True)
     should_request = Column(Boolean, default=True)
 
