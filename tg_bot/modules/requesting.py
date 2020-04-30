@@ -17,7 +17,7 @@ REQUEST_IMMUNE_USERS = SUDO_USERS + TIGER_USERS
 
 @run_async
 @user_admin
-def report_setting(bot: Bot, update: Update, args: List[str]):
+def request(bot: Bot, update: Update, args: List[str]):
     chat = update.effective_chat
     msg = update.effective_message
 
