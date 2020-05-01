@@ -122,6 +122,7 @@ __help__ = """
 - /tr or /tl (language code) as reply to a long message.
 Example: /tr en - translates something to english. 
          /tr hi-en - translates hindi to english.
+         See [List of Language Codes](https://t.me/MegatronUpdate/4) for a list of language codes.
 """
 
 TRANSLATE_HANDLER = DisableAbleCommandHandler(["tr", "tl"], totranslate)
