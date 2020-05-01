@@ -27,7 +27,7 @@ You can find my list of available commands with /help.
 Only Sudo & Support User Can use /Gban & /Gmute if you want use these Commands then contact admins in Support Group.
 
 My future updates will be put into This Channel - [Megatron News](t.me/MegatronUpdate) & My Support Group [Megatron Support](t.me/MegatronSupportGroup).
-I am same As Saitama but Better Version. This is my [Source Code](https://github.com/gogeta0sama/GroupAssistantRobot),
+I am same As Saitama but Better Version. This is my [Source Code](https://github.com/gogeta0sama/MegatronRobot),
 you can create your own Bot..
 
 **Keep in mind that any changes you DO do to the source have to be on github, as per the license.**
