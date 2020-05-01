@@ -7,7 +7,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-   "description": "An Anime themed Telegram group management bot.",
+   "description": "Telegram group management bot.",
    "env": {
       "ALLOW_EXCL": {
          "description": "Set this to True if you want ! to be a command prefix along with /",
@@ -116,8 +116,8 @@
       "weeb",
       "group",
       "manager",
-      "Saitama"
+      "Megatron"
    ],
-   "name": "Saitama Robot",
-   "repository": "https://github.com/AnimeKaizoku/SaitamaRobot"
+   "name": "Megatron Robot",
+   "repository": "https://github.com/gogeta0sama/MegatronRobot"
 }
