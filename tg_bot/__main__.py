@@ -25,6 +25,9 @@ You can find my list of available commands with /help.
 My future updates will be put into This Channel - [Megatron News](t.me/MegatronUpdate) & My Support Group [Megatron Support](t.me/MegatronSupportGroup).
 I am same As Saitama but Better Version. This is my [Source Code](https://github.com/gogeta0sama/GroupAssistantRobot),
 you can create your own Bot..
+
+**Keep in mind that any changes you DO do to the source have to be on github, as per the license.**
+
 """
 
 HELP_STRINGS = """
