@@ -19,8 +19,12 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 Hi {}, my name is {}! 
 I am Megatron group management bot maintained by [this person](https://t.me/ssj4gogeta).
+
 To add me to your group click ["HERE"](t.me/Megatron_Robot?startgroup=botstart)
+
 You can find my list of available commands with /help.
+
+Only Sudo & Support User Can use /Gban & /Gmute if you want use these Commands then contact admins in Support Group.
 
 My future updates will be put into This Channel - [Megatron News](t.me/MegatronUpdate) & My Support Group [Megatron Support](t.me/MegatronSupportGroup).
 I am same As Saitama but Better Version. This is my [Source Code](https://github.com/gogeta0sama/GroupAssistantRobot),
