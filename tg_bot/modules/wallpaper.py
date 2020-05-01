@@ -42,7 +42,16 @@ def wall(bot: Bot, update: Update, args):
                 filename='wallpaper', caption=caption, reply_to_message_id=msg_id,
                 timeout=60)
                     
-            
+ 
+__help__ = """
+get wallpaper without leaving Telegram 
+ - /wall <name>: Replace name which wallpaper you want 
+ Example:-/wall Megatron
+ """
             
 WALLPAPER_HANDLER = DisableAbleCommandHandler("wall", wall, pass_args=True)
 dispatcher.add_handler(WALLPAPER_HANDLER)
+
+__mod_name__ = "wallpaper"
+__command_list__ = ["wallpaper"]
+__handlers__ = [WALLPAPER_HANDLER]
