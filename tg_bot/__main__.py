@@ -17,19 +17,20 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am an Anime themed group management bot.
-To add me to your group click ["HERE"](t.me/SaitamaRobot?startgroup=botstart)
-You can find my list of available commands with /help.
+hello {}, my name is {}! if you have any questions about how to use me please give me /help... 
+im a group manager bot maintained by  [this person](https://t.me/ssj4gogeta).
 
-[Saitama's Repo](github.com/AnimeKaizoku/SaitamaRobot) 
-See [Basic Configuration Checklist](t.me/OnePunchUpdates/29) on how to secure your group.
-The support group chat is at {}.
-"""
+My future updates will be put into This Channel - [Megatron News](t.me/MegatronUpdate) & My Support Group [Megatron Support](t.me/megateonSupportGroup).
+I'm Same like Saitama but better version [Source Code](https://github.com/gogeta0sama/GroupAssistantRobot),
+you can create clone bot same me..
+
+For more commands click /help...
+
+**Keep in mind that any changes you DO do to the source have to be on github, as per the license.**
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
+I'm Megatron Group Manager Bot help admins manage their groups with Crash Them all! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
