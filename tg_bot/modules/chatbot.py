@@ -48,7 +48,7 @@ def remove_chat(bot: Bot, update: Update):
         
 def check_message(bot: Bot, message):
     reply_msg = message.reply_to_message
-    if message.text.lower() == "saitama":
+    if message.text.lower() == "megatron":
         return True
     if reply_msg:
         if reply_msg.from_user.id == bot.get_me().id:
@@ -107,13 +107,13 @@ def list_chatbot_chats(bot: Bot, update: Update):
 __mod_name__ = "Chatbot"
 
 __help__ = f"""
-Chatbot utilizes the CoffeeHouse API and allows Saitama to talk back making your chat more interactive.
+Chatbot utilizes the CoffeeHouse API and allows Megatron to talk back making your chat more interactive.
 This is an ongoing upgrade and is only available in your chats if you reach out to {SUPPORT_CHAT} and ask for it. 
 
 In future we might make it open for any chat and controllable by group admins.
 
 Powered by CoffeeHouse (https://coffeehouse.intellivoid.net/) from @Intellivoid
-Commands: These only work for Saitama Staff users. 
+Commands: These only work for Megatron Staff users. 
  - /addchat     : Enables Chatbot mode in the chat.
  - /rmchat      : Disables Chatbot mode in the chat.
  - /listaichats : Lists the chats the chatmode is enabled in.
